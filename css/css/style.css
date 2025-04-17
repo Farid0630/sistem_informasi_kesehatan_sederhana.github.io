@@ -1,51 +1,64 @@
 table.dataTable td {
-    white-space: normal !important;
-    word-wrap: break-word;
-    vertical-align: top;
-    max-width: 300px;
+  white-space: normal !important;
+  word-wrap: break-word;
+  vertical-align: top;
+  max-width: 300px;
 }
 
 table.dataTable th {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 table.dataTable td {
-    white-space: normal !important;
-    word-wrap: break-word;
-    vertical-align: top;
-    max-width: 300px;
+  white-space: normal !important;
+  word-wrap: break-word;
+  vertical-align: top;
+  max-width: 300px;
 }
 
 table.dataTable th {
-    white-space: nowrap;
-    background-color: #B1B2FF !important;
-    color: black;
+  white-space: nowrap;
+  background-color: #b1b2ff !important;
+  color: black;
 }
 
 table.dataTable tbody tr:nth-child(even) td {
-    background-color: #D2DAFF;
+  background-color: #d2daff;
 }
 
 table.dataTable tbody tr:nth-child(odd) td {
-    background-color: #EEF1FF;
+  background-color: #eef1ff;
 }
 
-
 @media (max-width: 576px) {
+  @media (max-width: 576px) {
     h1 {
-        font-size: 1.5rem;
-        text-align: center;
+      font-size: 28px !important;
     }
 
-    .container-fluid.p-5 {
-        padding: 1.5rem !important;
+    .jumbotron {
+      padding: 2rem 1rem !important;
     }
 
-    table.dataTable td, table.dataTable th {
-        font-size: 0.875rem;
+    .btn-lg {
+      font-size: 16px;
+      padding: 0.5rem 1rem;
     }
 
-    .navbar-brand {
-        font-size: 1.2rem;
+    .modal-dialog {
+      margin: 1rem;
     }
+  }
+  .container-fluid.p-5 {
+    padding: 1.5rem !important;
+  }
+
+  table.dataTable td,
+  table.dataTable th {
+    font-size: 0.875rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
 }
