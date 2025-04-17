@@ -1,0 +1,51 @@
+table.dataTable td {
+    white-space: normal !important;
+    word-wrap: break-word;
+    vertical-align: top;
+    max-width: 300px;
+}
+
+table.dataTable th {
+    white-space: nowrap;
+}
+
+table.dataTable td {
+    white-space: normal !important;
+    word-wrap: break-word;
+    vertical-align: top;
+    max-width: 300px;
+}
+
+table.dataTable th {
+    white-space: nowrap;
+    background-color: #B1B2FF !important;
+    color: black;
+}
+
+table.dataTable tbody tr:nth-child(even) td {
+    background-color: #D2DAFF;
+}
+
+table.dataTable tbody tr:nth-child(odd) td {
+    background-color: #EEF1FF;
+}
+
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .container-fluid.p-5 {
+        padding: 1.5rem !important;
+    }
+
+    table.dataTable td, table.dataTable th {
+        font-size: 0.875rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
